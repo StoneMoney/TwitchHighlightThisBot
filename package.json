@@ -1,0 +1,32 @@
+{
+  "name": "twitch-ht-bot",
+  "version": "1.0.0",
+  "description": "Whisper to bot to stamp a highlight, which then gets recorded to a google sheet",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "ngiano",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "googleapis": "^49.0.0",
+    "tmi.js": "^1.5.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StoneMoney/TwitchHighlightThisBot.git"
+  },
+  "keywords": [
+    "bot",
+    "twitch",
+    "google",
+    "sheets",
+    "highlight"
+  ],
+  "bugs": {
+    "url": "https://github.com/StoneMoney/TwitchHighlightThisBot/issues"
+  },
+  "homepage": "https://github.com/StoneMoney/TwitchHighlightThisBot#readme"
+}
